@@ -1,0 +1,22 @@
+# secrets & data
+.env
+backups/
+*.dump
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# node
+node_modules/
+frontend/dist/
+e2e/test-results/
+e2e/playwright-report/
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store

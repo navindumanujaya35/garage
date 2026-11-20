@@ -1,0 +1,9 @@
+# Build context for the web (nginx) image is the repository root.
+.git
+backend
+backups
+e2e
+docs
+**/node_modules
+frontend/dist
+.env
